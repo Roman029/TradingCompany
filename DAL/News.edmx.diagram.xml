@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="373fc7ba4418426fb40f43e75f3116b3" Name="Diagram1">
+        <EntityTypeShape EntityType="ManagerNewsModel.Category" Width="1.5" PointX="1.875" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagerNewsModel.Comment" Width="1.5" PointX="4.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagerNewsModel.ProductInTopic" Width="1.5" PointX="6.625" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagerNewsModel.Product" Width="1.5" PointX="4.125" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagerNewsModel.Role" Width="1.5" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagerNewsModel.Topic" Width="1.5" PointX="7" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagerNewsModel.User" Width="1.5" PointX="2.25" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="ManagerNewsModel.FK__Products__Catego__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagerNewsModel.FK__New__Users_ID__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagerNewsModel.FK_Topics_Comments" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagerNewsModel.FK_ProductInTopic_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagerNewsModel.FK_ProductInTopic_Topics" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagerNewsModel.FK__Users__Role_ID__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagerNewsModel.FK__Topics__Users_ID__3A81B327" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
